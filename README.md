@@ -1,9 +1,12 @@
 # ansicolors
-This simply is a table of shortcuts for ANSI Color Codes.
+This simply is a list of shortcuts for ANSI Color Codes.
 
 I have often found it very difficult to debug lua scripts containing ANSI Colors. This was designed to help with that.
 
 ### USAGE:
 local ansicolors = require('ansicolors')
 
-io.write(color.red,"Hello",color.blue ,", ",color.bgyellow, "World!",color.reset,"!!")
+io.write(red,"Hello",blue ,", ",bgyellow, "World!",reset,"!!")
+
+### Notes
+To use this just print or io.write the variable name of the color you want. For example if you want green text just print(green). Or if you want a blue background just print(bgblue). Don't forget to reset via print(reset).
