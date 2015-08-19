@@ -5,4 +5,5 @@ I have often found it very difficult to debug lua scripts containing ANSI Colors
 
 ### USAGE:
 local ansicolors = require('ansicolors')
+
 io.write(color.red,"Hello",color.blue ,", ",color.bgyellow, "World!",color.reset,"!!")
